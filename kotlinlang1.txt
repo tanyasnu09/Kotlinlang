@@ -1,0 +1,10 @@
+fun allODDs(limit :Int){
+    for ( element  in 1.. limit step 2)
+    {
+        println(element)
+    }
+}
+fun main()
+{
+    allODDs(13)
+}
